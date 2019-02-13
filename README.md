@@ -5,7 +5,7 @@ This repository presents results of our work to detect Melanoma by Skin Lesion A
 ## About ISIC
 The International Skin Imaging Collaboration (ISIC) is an international effort to improve melanoma diagnosis, sponsored by the International Society for Digital Imaging of the Skin (ISDIS). The ISIC Archive contains the largest publicly available collection of quality controlled dermoscopic images of skin lesions.
 
-The goal of this [challenge] (https://challenge2018.isic-archive.com) is to help participants develop image analysis tools to enable the automated diagnosis of melanoma from dermoscopic images.
+The goal of this [challenge](https://challenge2018.isic-archive.com) is to help participants develop image analysis tools to enable the automated diagnosis of melanoma from dermoscopic images.
 
 This challenge is broken into three separate tasks:
 Task 1: Lesion Segmentation  
@@ -38,7 +38,7 @@ Class wise probabilities for each valid image is available at [Valid Results](ht
 
 Class wise probabilities for each test image is available at [Test Results](https://github.com/naneja/isic2018/blob/master/log/results-test.csv)  
 
-Our position at [ISIC Live Challenge Leaderboards](https://challenge2018.isic-archive.com/live-leaderboards/) at the time of uploading the results for Task 3 is 21 and we are working to improve the results.
+Our position at [ISIC Live Challenge Leaderboards](https://challenge2018.isic-archive.com/live-leaderboards/) at the time of uploading the results for Task 3 is 23 and we are working to improve the results.
 
 ## Sanity Check
 Following are five random images that were picked and detected one of the disease categories by our model
