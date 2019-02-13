@@ -27,15 +27,20 @@ Possible disease categories are:
 ## Results
 Following Graphs show Model Accuracy for Training and Testing Phase; Model Loss for Training and Testing Phase; and Computation Time for Training the model and Training plus Tresting the model.
 
-
+![model](https://github.com/naneja/isic2018/blob/master/figs/model.png)
 
 ## Sanity Check
 Following are five random images that were picked and detected one of the disease categories by our model
 
 ![Pred1](https://github.com/naneja/isic2018/blob/master/figs/pred1.png)
+![Pred2](https://github.com/naneja/isic2018/blob/master/figs/pred2.png)
+![Pred3](https://github.com/naneja/isic2018/blob/master/figs/pred3.png)
+![Pred4](https://github.com/naneja/isic2018/blob/master/figs/pred4.png)
+![Pred5](https://github.com/naneja/isic2018/blob/master/figs/pred5.png)
 
 ## Dataset Size
 Below is the Training Dataset consisting of 10,015 images for different disease categories
+
 | Sr.No. | Disease | Training Files |
 |:-------------:|:-------------:|:-------------:|
 | 1   | Melanoma | 1113 |
@@ -46,6 +51,7 @@ Below is the Training Dataset consisting of 10,015 images for different disease 
 | 6   | Dermatofibroma | 115 |
 | 7   | Vascular lesion | 142 |
 
+![Dataset](https://github.com/naneja/isic2018/blob/master/figs/dataset.png)
 
 ## Feedback
 Please submit your feedback to [Dr. Nagender Aneja](http://expert.ubd.edu.bn/nagender.aneja). Please write an email (nagender.aneja@ubd.edu.bn) if you are interested to impement the model in a mobile app or web app. We welcome people and organization who can provide more data on plants from different countries to join this project. 
