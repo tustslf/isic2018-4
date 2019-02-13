@@ -15,6 +15,9 @@ Task 3: Disease Classification
 Ours results are for Task 3: Disease Classification
 
 Possible disease categories are:
+
+| Sr.No. | Disease |
+|:-------------:|:-------------:|
 | 1   | Melanoma |
 | 2   | Melanocytic nevus |
 | 3   | Basal cell carcinoma |
@@ -28,6 +31,14 @@ Possible disease categories are:
 Following Graphs show Model Accuracy for Training and Testing Phase; Model Loss for Training and Testing Phase; and Computation Time for Training the model and Training plus Tresting the model.
 
 ![model](https://github.com/naneja/isic2018/blob/master/figs/model.png)
+
+Model Accuracy, Model Loss, and Training Time is available at [model](https://github.com/naneja/isic2018/blob/master/log/results.csv)
+
+Class wise probabilities for each valid image is available at [Valid Results](https://github.com/naneja/isic2018/blob/master/log/results-valid.csv)  
+
+Class wise probabilities for each test image is available at [Test Results](https://github.com/naneja/isic2018/blob/master/log/results-test.csv)  
+
+Our position at [ISIC Live Challenge Leaderboards](https://challenge2018.isic-archive.com/live-leaderboards/) at the time of uploading the results for Task 3 is 21 and we are working to improve the results.
 
 ## Sanity Check
 Following are five random images that were picked and detected one of the disease categories by our model
@@ -51,7 +62,6 @@ Below is the Training Dataset consisting of 10,015 images for different disease 
 | 6   | Dermatofibroma | 115 |
 | 7   | Vascular lesion | 142 |
 
-![Dataset](https://github.com/naneja/isic2018/blob/master/figs/dataset.png)
 
 ## Feedback
 Please submit your feedback to [Dr. Nagender Aneja](http://expert.ubd.edu.bn/nagender.aneja). Please write an email (nagender.aneja@ubd.edu.bn) if you are interested to impement the model in a mobile app or web app. We welcome people and organization who can provide more data on plants from different countries to join this project. 
